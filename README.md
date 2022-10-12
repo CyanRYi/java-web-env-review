@@ -21,3 +21,16 @@
 [KEPKO 산업별 전력 사용량 API](https://bigdata.kepco.co.kr/cmsmain.do?scode=S01&pcode=000493&pstate=indus)
 
 [KEPKO 가구별 전력 사용량 API](https://bigdata.kepco.co.kr/cmsmain.do?scode=S01&pcode=000493&pstate=house)
+
+
+## 결론
+
+### 1차 결론 (2022-10-12)
+
+- reactive web은 출시 5년이 지난 지금에도 아직 생태계가 많이 부족하다.
+  - 특히 JPA 기반으로 돌아가는 생태계에 익숙한 기존의 Java 개발자들을 유인할 수 있을 것인가 하는 점에는 부정적이다.
+  - 보통의 웹서비스라면.. 70~90%는 단순한 데이터를 API로 반환하는 기능이다. querydsl쪽을 통해서라도 좀 더 편의성 기능을 구현해 볼 여지는 있다.
+- reactive web은 분명한 성능상의 이점을 보인다.
+  - 다만 이 정도의 성능상의 강력함이 필요한 제품의 시장 비중은 크지 않을 듯. (즉, 리딩할 스타 개발자들이...)
+  - 성능이 강력하다, 하지만 생태계는 부족하다. 라고 한다면 원점에서 다른 경쟁자들과 붙어봐야 한다. (2차 결론에는 Armeria를 포함할 예정)
+  - 성능이 강력하다. 하지만 Project LOOM이 성공한다면 어떨까?
