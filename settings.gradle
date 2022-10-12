@@ -1,0 +1,5 @@
+rootProject.name = 'spring-restful-api'
+
+include 'webmvc'
+include 'webflux'
+include 'kepco-data'
