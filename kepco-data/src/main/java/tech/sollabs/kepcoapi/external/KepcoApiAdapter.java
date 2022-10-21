@@ -17,9 +17,9 @@ import org.springframework.web.client.DefaultResponseErrorHandler;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 import tech.sollabs.kepcoapi.entity.PowerUsage;
-import tech.sollabs.kepcoapi.type.KepcoProvinceCode;
 import tech.sollabs.kepcoapi.external.response.HouseUsageData;
 import tech.sollabs.kepcoapi.external.response.IndustryUsageData;
+import tech.sollabs.kepcoapi.type.KepcoProvinceCode;
 
 @Component
 @Slf4j

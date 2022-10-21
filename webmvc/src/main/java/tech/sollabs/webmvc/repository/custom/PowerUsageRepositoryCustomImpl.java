@@ -3,7 +3,6 @@ package tech.sollabs.webmvc.repository.custom;
 import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import java.util.List;
-import tech.sollabs.webmvc.entity.PowerUsage;
 import tech.sollabs.webmvc.entity.QPowerUsage;
 import tech.sollabs.webmvc.resource.response.MonthlyPowerUsageResponse;
 

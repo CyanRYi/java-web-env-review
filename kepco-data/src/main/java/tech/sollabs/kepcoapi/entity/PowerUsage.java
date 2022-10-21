@@ -13,9 +13,9 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.Type;
-import tech.sollabs.kepcoapi.type.UsageType;
 import tech.sollabs.kepcoapi.external.response.HouseUsageData;
 import tech.sollabs.kepcoapi.external.response.IndustryUsageData;
+import tech.sollabs.kepcoapi.type.UsageType;
 
 @Entity
 @Getter

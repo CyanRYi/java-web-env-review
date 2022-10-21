@@ -9,5 +9,4 @@ class WebmvcArmeriaApplicationTests {
   @Test
   void contextLoads() {
   }
-
 }

@@ -2,8 +2,6 @@ spring:
   r2dbc:
     url: r2dbc:h2:file:///./h2db/db/data;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1;CASE_INSENSITIVE_IDENTIFIERS=TRUE;
     username: sa
-  flyway:
-    url: jdbc:sqlserver://<host>:<port>;database=InfobipSpringDataJdbcQuerydslTest;trustServerCertificate=true
 
 server:
-  port: 12001
+  port: 13000
